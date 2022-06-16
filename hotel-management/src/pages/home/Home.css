@@ -1,0 +1,56 @@
+.home {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.current-situation {
+    width: 100%;
+    padding: 50px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.current-situation-title {
+    color: #404040;
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+
+.home-bar {
+    margin-left: 50px;
+    width: 70%;
+    height: 20px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    flex: 1;
+}
+
+.home-current-stats {
+    margin: 20px auto;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-current-stats > h4 {
+    flex: .2;
+    color: #404040;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.home-current-stats > p {
+    margin-left: 10px;
+}
+
+.home-bar-status {
+    height: 100%;
+}
